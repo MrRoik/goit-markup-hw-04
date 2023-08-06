@@ -119,6 +119,10 @@ footer {
 .hero_image {
     background: var(--primary-black-color);
     color: var(--primary-white-color);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
 }
 .button {
     background: var(--iris, #4D5AE5);
