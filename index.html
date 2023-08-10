@@ -29,7 +29,9 @@
             Web<span class="logocolor">Studio</span></a
           >
           <ul class="list list-nav">
-            <li><a href="./index.html" class="heading link">Studio</a></li>
+            <li>
+              <a href="./index.html" class="heading link current">Studio</a>
+            </li>
             <li>
               <a href="./portfolio.html" class="heading link">Portfolio</a>
             </li>
@@ -56,9 +58,20 @@
     <main class="main">
       <!-- hero_image -->
       <section class="hero_image">
-        <div class="container">
+        <div class="hero_image-container container">
           <h1 class="h-one-section">Effective Solutions for Your Business</h1>
-          <button type="button" class="button">Order Service</button>
+          <button type="button" class="button" data-modal-open>
+            Order Service
+          </button>
+        </div>
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button type="button" class="close-button" data-modal-close>
+              <svg width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </section>
       <!-- Section 1 -->
@@ -398,35 +411,41 @@
         <div class="container">
           <h2 class="headings">Customers</h2>
           <ul class="list customers-list">
-            <li class="customers-list-item">
-              <svg width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo"></use>
-              </svg>
+            <li>
+              <a href="" class="customers-link" target="_blank"
+                ><svg width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo"></use></svg
+              ></a>
             </li>
-            <li class="customers-list-item">
-              <svg width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo2"></use>
-              </svg>
+            <li>
+              <a href="" class="customers-link" target="_blank"
+                ><svg width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo2"></use></svg
+              ></a>
             </li>
-            <li class="customers-list-item">
-              <svg width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo3"></use>
-              </svg>
+            <li>
+              <a href="" class="customers-link" target="_blank"
+                ><svg width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo3"></use></svg
+              ></a>
             </li>
-            <li class="customers-list-item">
-              <svg width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo4"></use>
-              </svg>
+            <li>
+              <a href="" class="customers-link" target="_blank"
+                ><svg width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo4"></use></svg
+              ></a>
             </li>
-            <li class="customers-list-item">
-              <svg width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo5"></use>
-              </svg>
+            <li>
+              <a href="" class="customers-link" target="_blank"
+                ><svg width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo5"></use></svg
+              ></a>
             </li>
-            <li class="customers-list-item">
-              <svg width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo6"></use>
-              </svg>
+            <li>
+              <a href="" class="customers-link" target="_blank"
+                ><svg width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo6"></use></svg
+              ></a>
             </li>
           </ul>
         </div>
