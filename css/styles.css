@@ -113,6 +113,14 @@ header {
 footer {
     background: var(--primary-black-color);
 }
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+.footer-block-logo {
+    margin-right: 120px;
+
+}
 .text-footer {
     color: var(--social-icon-white);
     font-family: var(--primary-font);
@@ -121,14 +129,14 @@ footer {
     letter-spacing: 0.02em;
     width: 264px;
 }
-.footer-title {
-    font-family: var(--primary-font);
+.footer-social-title {
+    font-weight: 500;
     color: var(--primary-white-color);
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    padding-bottom: 16px;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 .footer-social {
     padding-left: 120px;
@@ -631,6 +639,7 @@ img {
 .close-button:focus {
     background-color: var(--secondary-blue-color);
     fill: var(--primary-white-color);
+    border: none;
 }
 
 .backdrop-button-icon {
